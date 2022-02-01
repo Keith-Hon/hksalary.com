@@ -1,0 +1,94 @@
+.container {
+}
+
+.main {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+a:link {
+    color: rgb(224, 141, 0);
+}
+
+a:visited {
+    color: rgb(224, 141, 0);
+}
+
+a:hover {
+    color: rgb(224, 141, 0);
+}
+
+a:active {
+    color: rgb(224, 141, 0);
+} */
+
+.submit_btn {
+    border-radius: 10px;
+    background-color: rgb(224, 141, 0);
+    box-shadow: 0 5px 0 rgb(112, 70, 0);
+    color: white;
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit_btn:hover {
+    background-color: rgb(160, 110, 0);
+    cursor: pointer;
+}
+
+.submit_btn:link {
+    color: white;
+}
+
+.submit_btn:visited {
+    color: white;
+}
+
+.filter_btn {
+    vertical-align: middle;
+    text-align: center;
+    width: calc((100% - 15px) / 3);
+    max-width: 300px;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.industry_btn {
+    background-color: rgb(0, 141, 224);
+    box-shadow: 0 5px 0 rgb(0, 70, 112);
+}
+
+.company_btn {
+    background-color: rgb(224, 70, 0);
+    box-shadow: 0 5px 0 rgb(112, 35, 0);
+}
+
+.position_btn {
+    background-color: rgb(0, 224, 70);
+    box-shadow: 0 5px 0 rgb(0, 112, 35);
+    margin-right: 0px;
+}
+
+.select-items {
+    text-align: center;
+    margin: 0px;
+}
